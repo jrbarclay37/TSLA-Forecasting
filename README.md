@@ -11,11 +11,11 @@
 
 ## Overview
 
-This repository contains the jupyter notebooks for using investor sentiment data from a popular community on Reddit, r/wallstreetbets to predict the price of TSLA.
+This repository contains the jupyter notebooks for using investor sentiment data from a popular community on Reddit, r/wallstreetbets, to predict the price of TSLA.
 
-The analysis is separated into several categories:
+The analysis is separated into three categories:
 
-1. Data Collection - scraping user comments from Reddit using PRAW and collecting TSLA's price from yahoo finance.
+1. Data Collection - scraping user comments from Reddit using PRAW and collecting TSLA's daily closing prices from yahoo finance.
 
 2. Sentiment Analysis - engineering scores from user comments to measure investor sentiment.
 
@@ -25,17 +25,25 @@ The analysis is separated into several categories:
 
 **Reddit**
 
+We will be working with the `scraping_reddit_comments.ipynb` notebook to scrape user comments from r/wallstreetbets. You will need to install python's Reddit API wrapper, `PRAW`.
+
 ```console
 pip install praw .
 ```
-Insert `description` here.
+
+You will also need to register an account in order to access the API. You can do that [here](https://www.reddit.com/prefs/apps/).
+
+To learn more about the PRAW API wrapper, please refer to the [official documentation](https://praw.readthedocs.io/en/latest/).
 
 **Yahoo Finance**
+
+We will be collecting historical data on TSLA's daily closing prices using `query_tsla_data.ipynb`. You will need to install `yfinance`.
 
 ```console
 pip install yfinance .
 ```
-Insert `description` here.
+
+To learn more about the yfinance library, please refer to the [official documentation](https://pypi.org/project/yfinance/).
 
 ```console
 pip install .
