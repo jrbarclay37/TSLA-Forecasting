@@ -26,7 +26,7 @@ The analysis is separated into three categories:
 We will be working with the `scraping_reddit_comments.ipynb` notebook to scrape user comments from r/wallstreetbets. You will need to install python's Reddit API wrapper, `PRAW`.
 
 ```console
-pip install praw .
+pip install praw
 ```
 
 You will also need to [register](https://www.reddit.com/prefs/apps/) an account in order to access the API.
@@ -38,7 +38,7 @@ To learn more about the PRAW API wrapper, please refer to the [official document
 We will be collecting historical data on TSLA's daily closing prices using `query_tsla_data.ipynb`. You will need to install `yfinance`.
 
 ```console
-pip install yfinance .
+pip install yfinance
 ```
 
 To learn more about the yfinance library, please refer to the [official documentation](https://pypi.org/project/yfinance/).
@@ -46,7 +46,7 @@ To learn more about the yfinance library, please refer to the [official document
 Additionally, we will use the `TA-Lib` to compute our technical indicators to be used as features in our model. 
 
 ```console
-pip install TA-Lib .
+pip install TA-Lib
 ```
 
 To learn more about the TA-Lib library, please refer to the [official documentation](https://mrjbq7.github.io/ta-lib/doc_index.html).
@@ -61,9 +61,3 @@ Bringing everything together, we use our sentiment scores and technical indicato
 - Random Forest
 - XGBoost
 - LSTM
-
-
-
-
-
-
