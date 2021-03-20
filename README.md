@@ -9,7 +9,7 @@
 
 ## Overview
 
-This repository contains the jupyter notebooks for using sentiment data from the most eccenctric investing community on Reddit, [r/wallstreetbets](https://www.reddit.com/r/wallstreetbets/), to predict the price of TSLA.
+This repository contains the jupyter notebooks for using sentiment data from the most eccentric investing community on Reddit, [r/wallstreetbets](https://www.reddit.com/r/wallstreetbets/), to predict the price of TSLA.
 
 The analysis is separated into three categories:
 
