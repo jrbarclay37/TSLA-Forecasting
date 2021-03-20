@@ -9,7 +9,7 @@
 
 ## Overview
 
-This repository contains the jupyter notebooks for using sentiment data from the most eccentric investing community on Reddit, [r/wallstreetbets](https://www.reddit.com/r/wallstreetbets/), to predict the price of TSLA.
+Predicting the behavior of the stock market is one of the most challenging time series problems in existence. It also one of the most commonly attempted because of the massive potential rewards for making accurate predictions. In this analysis we are going to explore sentiment data from the most eccentric investing community on Reddit, [r/wallstreetbets](https://www.reddit.com/r/wallstreetbets/), and try to answer the question of whether or not this information adds predictive power to a forecasting model that predicts the price of TSLA.
 
 The analysis is separated into three categories:
 
