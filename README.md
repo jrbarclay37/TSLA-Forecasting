@@ -33,7 +33,7 @@ You will also need to [register](https://www.reddit.com/prefs/apps/) an account 
 
 To learn more about the `PRAW` API wrapper, please refer to the [official documentation](https://praw.readthedocs.io/en/latest/).
 
-To mitigate Reddit's slow response times, we also leverage `pushshift.io`. This is a project that warehouses all of Reddit's data making it significantly faster to query for data.
+To mitigate Reddit's slow response times, we also leverage `pushshift.io`. This is a project that warehouses all of Reddit's data, allowing us to query the data more efficiently with significantly faster response times.
 
 To learn more about `pushshift.io`, please refer to the [official documentation](https://pushshift.io/api-parameters/).
 
