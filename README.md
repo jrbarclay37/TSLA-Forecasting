@@ -3,8 +3,8 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Data Collection](#data collection)
-- [Sentiment Analysis](#sentiment analysis)
+- [Data Collection](#data-collection)
+- [Sentiment Analysis](#sentiment-analysis)
 - [Forecasting](#forecasting)
 
 ## Overview
