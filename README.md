@@ -1,7 +1,5 @@
 # TSLA-Forecasting
 
-**This project is still under construction**
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -31,7 +29,7 @@ We will be working with the `scraping_reddit_comments.ipynb` notebook to scrape 
 pip install praw .
 ```
 
-You will also need to register an account in order to access the API. You can do that [here](https://www.reddit.com/prefs/apps/).
+You will also need to [register](https://www.reddit.com/prefs/apps/) an account in order to access the API.
 
 To learn more about the PRAW API wrapper, please refer to the [official documentation](https://praw.readthedocs.io/en/latest/).
 
@@ -45,18 +43,21 @@ pip install yfinance .
 
 To learn more about the yfinance library, please refer to the [official documentation](https://pypi.org/project/yfinance/).
 
+Additionally, we will use the `TA-Lib` to compute our technical indicators to be used as features in our model. 
+
 ```console
-pip install .
+pip install TA-Lib .
 ```
+
+To learn more about the TA-Lib library, please refer to the [official documentation](https://mrjbq7.github.io/ta-lib/doc_index.html).
 
 ## Sentiment Analysis
 
-Insert `description` here.
+In this section, we will be analyzing our user comments from Reddit and using NLP techniques to engineer scores to measure investor sentiment towards TSLA. This all takes place in the `sentiment_analysis.ipynb` notebook.
 
 ## Forecasting
 
-Use the following models:
-- ARIMA (baseline)
+Bringing everything together, we use our sentiment scores and technical indicators to predict the future price of TSLA in the `tsla-forecasting.ipynb` notebook. We use a simple ARIMA model as our baseline and then attempt to improve performance using the following models:
 - Random Forest
 - XGBoost
 - LSTM
