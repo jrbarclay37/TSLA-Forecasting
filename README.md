@@ -59,9 +59,41 @@ To learn more about the `TA-Lib` library, please refer to the [official document
 
 In this section, we will be analyzing our user comments from Reddit and using NLP techniques to engineer scores that measure investor sentiment towards TSLA. This all takes place in the `sentiment_analysis.ipynb` notebook.
 
+We will be relying on the `nltk` library, so you should have this installed.
+
+```console
+pip install nltk
+```
+
+To learn more about the `nltk` library, please refer to the [official documentation](https://www.nltk.org/).
+
 ## Forecasting
 
 Bringing everything together, we use our sentiment scores and technical indicators to predict the future price of TSLA in the `tsla_forecasting.ipynb` notebook. We use a simple ARIMA model as our baseline and then attempt to improve performance using the following models:
 - Random Forest
 - XGBoost
 - LSTM
+
+For this final workbook, you should have `statsmodels`, `scikit-learn`, `xgboost`, and `keras` installed on your machine. 
+
+```console
+pip install statsmodels
+```
+
+```console
+pip install scikit-learn
+```
+
+```console
+pip install xgboost
+```
+
+```console
+pip install keras
+```
+
+To learn more about the documentation for each of these libraries, please refer to the following links:
+- [statsmodels](https://www.statsmodels.org/stable/index.html)
+- [scikit-learn](https://scikit-learn.org/stable/)
+- [xgboost](https://xgboost.readthedocs.io/en/latest/)
+- [keras](https://keras.io/about/)
