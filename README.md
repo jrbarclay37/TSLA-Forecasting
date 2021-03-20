@@ -31,11 +31,11 @@ pip install praw
 
 You will also need to [register](https://www.reddit.com/prefs/apps/) an account in order to access the API.
 
-To learn more about the PRAW API wrapper, please refer to the [official documentation](https://praw.readthedocs.io/en/latest/).
+To learn more about the `PRAW` API wrapper, please refer to the [official documentation](https://praw.readthedocs.io/en/latest/).
 
 To mitigate Reddit's slow response times, we also leverage `pushshift.io`. This is a project that warehouses all of Reddit's data making it significantly faster to query for data.
 
-To learn more about pushshift.io, please refer to the [official documentation](https://pushshift.io/api-parameters/).
+To learn more about `pushshift.io`, please refer to the [official documentation](https://pushshift.io/api-parameters/).
 
 **Yahoo Finance**
 
@@ -45,7 +45,7 @@ We will be collecting historical data on TSLA's daily closing prices using `quer
 pip install yfinance
 ```
 
-To learn more about the yfinance library, please refer to the [official documentation](https://pypi.org/project/yfinance/).
+To learn more about the `yfinance` library, please refer to the [official documentation](https://pypi.org/project/yfinance/).
 
 Additionally, we will use the `TA-Lib` to compute our technical indicators to be used as features in our model. 
 
@@ -53,7 +53,7 @@ Additionally, we will use the `TA-Lib` to compute our technical indicators to be
 pip install TA-Lib
 ```
 
-To learn more about the TA-Lib library, please refer to the [official documentation](https://mrjbq7.github.io/ta-lib/doc_index.html).
+To learn more about the `TA-Lib` library, please refer to the [official documentation](https://mrjbq7.github.io/ta-lib/doc_index.html).
 
 ## Sentiment Analysis
 
