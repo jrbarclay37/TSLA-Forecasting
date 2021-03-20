@@ -53,7 +53,7 @@ To learn more about the TA-Lib library, please refer to the [official documentat
 
 ## Sentiment Analysis
 
-In this section, we will be analyzing our user comments from Reddit and using NLP techniques to engineer scores to measure investor sentiment towards TSLA. This all takes place in the `sentiment_analysis.ipynb` notebook.
+In this section, we will be analyzing our user comments from Reddit and using NLP techniques to engineer scores that measure investor sentiment towards TSLA. This all takes place in the `sentiment_analysis.ipynb` notebook.
 
 ## Forecasting
 
