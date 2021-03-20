@@ -57,7 +57,7 @@ In this section, we will be analyzing our user comments from Reddit and using NL
 
 ## Forecasting
 
-Bringing everything together, we use our sentiment scores and technical indicators to predict the future price of TSLA in the `tsla-forecasting.ipynb` notebook. We use a simple ARIMA model as our baseline and then attempt to improve performance using the following models:
+Bringing everything together, we use our sentiment scores and technical indicators to predict the future price of TSLA in the `tsla_forecasting.ipynb` notebook. We use a simple ARIMA model as our baseline and then attempt to improve performance using the following models:
 - Random Forest
 - XGBoost
 - LSTM
