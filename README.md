@@ -13,11 +13,11 @@ Predicting the behavior of the stock market is one of the most challenging time 
 
 The analysis is separated into three categories:
 
-1. **Data Collection** - scraping user comments from Reddit using PRAW and collecting TSLA's daily closing prices from Yahoo Finance.
+**1. Data Collection** - scraping user comments from Reddit using PRAW and collecting TSLA's daily closing prices from Yahoo Finance.
 
-2. **Sentiment Analysis** - engineering scores from user comments to measure investor sentiment.
+**2. Sentiment Analysis** - engineering scores from user comments to measure investor sentiment.
 
-3. **Forecasting** - predicting the future price of TSLA using technical indicators and features from sentiment analysis.
+**3. Forecasting** - predicting the future price of TSLA using technical indicators and features from sentiment analysis.
 
 ## Data Collection
 
