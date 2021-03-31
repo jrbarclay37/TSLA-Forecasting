@@ -72,7 +72,7 @@ To learn more about the `nltk` library, please refer to the [official documentat
 
 ## Data Exploration
 
-Before training our machine learning models, we work in the `exploratory_data_analysis.ipynb` notebook to further process and examine the data from the previous sections. This includes various feature engineering techniques enhance predictive power of variables, as well as force sequence dependancy into the models. 
+Before training our machine learning models, we work in the `exploratory_data_analysis.ipynb` notebook to further process and examine the data from the previous sections. This includes feature engineering to enhance the predictive power of variables, as well as force sequence dependancy into the models. 
 
 ## Forecasting
 
