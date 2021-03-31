@@ -18,7 +18,7 @@ The analysis is separated into four categories:
 
 **2. Sentiment Analysis** - engineering scores from user comments to measure investor sentiment.
 
-**3. Data Exploration** - exploratory data analysis, processing, and feature engineering to enhance prediction performance of machine learning models.
+**3. Data Exploration** - exploratory data analysis and processing to enhance prediction performance of machine learning models.
 
 **4. Forecasting** - predicting the future price of TSLA using technical indicators and features from sentiment analysis.
 
@@ -72,7 +72,7 @@ To learn more about the `nltk` library, please refer to the [official documentat
 
 ## Data Exploration
 
-Before training our machine learning models, we work in the `exploratory_data_analysis.ipynb` notebook to further process and examine the data from the previous sections. 
+Before training our machine learning models, we work in the `exploratory_data_analysis.ipynb` notebook to further process and examine the data from the previous sections. This includes various feature engineering techniques enhance predictive power of variables, as well as force sequence dependancy into the models. 
 
 ## Forecasting
 
