@@ -18,7 +18,7 @@ The analysis is separated into four categories:
 
 **2. Sentiment Analysis** - engineering scores from user comments to measure investor sentiment.
 
-**3. Data Exploration** - exploratory data analysis and processing to enhance prediction performance of machine learning models.
+**3. Data Exploration** - exploratory data analysis and processing to enhance performance of machine learning models.
 
 **4. Forecasting** - predicting the future price of TSLA using technical indicators and features from sentiment analysis.
 
